@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+html{
+    font-size:16px
+}
+
+#green{
+    color: #00ed00;
+}
+
+#white{
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#wtimgbox{
+    top: 0px;
+}
+
+#wtimgbox img{
+    width: 100%;
+}
+
+#textbox{
+    position: absolute;
+    top:130px;
+    left:160px;
+}
+
+#main2{
+    width:100%;
+    margin-top: 400px;
+}
+
+#computer img{
+    width: 100%;
+}
+
+.font1{
+    font-family: ocr-a-std, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+
+#chicken img{
+    width: 100%;
+}
+
+.textbox2{
+    width:100%;
+    margin-left:83px;
+}
+
+#use img{
+    width: 100%;
+}
+
+#footer{
+    width: 100%;
+}
+
+#box{
+    width: 100%;
+    background-color: #00ed00;
+}
+
+#textbox6{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width : 640px)
+{
+    body{
+        background-color: black;
+    }
+
+    .font1{
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+
+    #textbox{
+        top:30px;
+        left:40px;
+    }
+
+    .textbox2{
+        width:100%;
+        margin-left:20px;
+    }
+
+}
